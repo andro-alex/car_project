@@ -1,0 +1,7 @@
+# Screen Size
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+
+#Car specs
+CAR_SPEED = 0
+BLINK_SPEED = 10
