@@ -14,3 +14,8 @@ SIGNAL_GAP = 10 #pixels between the two signals
 LEFT_X = CENTER_X - SIGNAL_WIDTH - SIGNAL_GAP // 2
 RIGHT_X = CENTER_X + SIGNAL_GAP // 2
 SIGNAL_Y = CENTER_Y - SIGNAL_WIDTH // 2 # Vertically centered
+
+#Hazard signal specs
+HAZARD_WIDTH = 65
+HAZARD_X = CENTER_X - HAZARD_WIDTH // 2
+HAZARD_Y = SIGNAL_Y + SIGNAL_WIDTH + 25 # Positioned below the turn signals

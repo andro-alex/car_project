@@ -15,3 +15,11 @@ car_signals = {
     ]
 
 }
+
+hazard_images = {
+    "off": 
+        pygame.transform.smoothscale(pygame.image.load(os.path.join("resources", "img", "hazard_warning_off.png")), (65, 65))
+,
+    "on":
+        pygame.transform.smoothscale(pygame.image.load(os.path.join("resources", "img", "hazard_warning_on.png")), (65, 65))
+}
